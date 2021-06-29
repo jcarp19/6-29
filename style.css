@@ -10,6 +10,8 @@
     background-color: #000000;
 }
 .box {
+   opacity: 0;
+   visibility: hidden;
     width: 200px;
     height: 200px;
     background-color: #666666;
@@ -17,12 +19,10 @@
     top: 200px;
 }
 .moveTo {
+    opacity: 1;
+    visibility: visible;
     background-color: red;
     top: 100px;
-    /* transition-property: top;
-    transition-property: right;
-    transition-duration: 3s; */
-    /* transition: top 3s, left 2s; */
     transition: all 3s ease-in-out;
 }
 
